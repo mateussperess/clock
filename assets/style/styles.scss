@@ -2,6 +2,7 @@
 
 :root {
   --text-color: #ffffff;
+  --text-number-size: 25px;
   --text-size: 20px;
 }
 
@@ -44,6 +45,8 @@
 
       span:nth-child(1) {
         color: var(--text-color);
+        // font-size: 25px;
+        text-transform: uppercase;
         
       }
 
@@ -52,12 +55,6 @@
         text-transform: uppercase;
         font-size: var(--text-size);
       }
-
     }
-
-    // .clock span:nth-child(1) {
-    //   color: white;
-    // }
-
   }
 }
