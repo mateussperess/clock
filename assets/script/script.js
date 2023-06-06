@@ -16,4 +16,6 @@ const clock = setInterval(function time() {
   hours.innerText = hourNow;
   minutes.innerText = minuteNow;
   seconds.innerText = secondNow;
-}); 
+
+  // console.log("testando setInterval")
+}, 1000); 
